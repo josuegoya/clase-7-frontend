@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.descuento {
+  width: 100%;
+  background-color: #1CD1B0;
+  height: 38px;
+  line-height: 36px;
+  padding-left: 15px;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+}
+
+.title {
+  background-color: #00669F;
+  height: 101px;
+  line-height: 99px;
+  padding-left: 20px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 529px;
+  margin-top: 100px;
+  background-color: #f3f3f3;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+
+  position: relative;
+}
+
+.corazon {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.batman {
+  border-radius: 100px;
+  position: absolute;
+  top: 130px;
+  right: 90px;
+}
+
+.text {
+  padding: 15px;
+}
+
+h3 {
+  margin-top: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+button {
+  display: block;
+  width: 129px;
+  height: 49px;
+  margin: 30px auto;
+  background-color: #00669F;
+  border: none;
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  height: 51px;
+  color: #fff;
+  background-color: #00669F;
+  position: absolute;
+  bottom: 0;
+}
+
+.text-footer {
+  line-height: 49px;
+  padding-left: 15px;
+}
